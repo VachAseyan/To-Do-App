@@ -1,0 +1,61 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(209, 219, 214);
+
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(90, 126, 7);
+    margin-top: 50px;
+    
+}
+
+.input {
+    width: 300px;
+    height: 20px;
+    border: 1px solid black;
+    outline: none;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.input:hover {
+    background-color: rgb(115, 185, 193);
+    transition: 1s;
+    border-radius: 40px;
+}
+
+.do {
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    border-radius:20px;
+}
+
+.do:hover {
+    background-color: rgb(92, 180, 92);
+    transition: 1s;
+    border-radius:30px;
+}
+
+.to-do {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.to-do li {
+    margin-top: 10px;
+}
